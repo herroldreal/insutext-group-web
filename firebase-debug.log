@@ -1,0 +1,152 @@
+[debug] [2024-11-08T03:15:20.020Z] ----------------------------------------------------------------------
+[debug] [2024-11-08T03:15:20.023Z] Command:       /usr/bin/node /usr/local/bin/firebase init
+[debug] [2024-11-08T03:15:20.023Z] CLI Version:   13.24.2
+[debug] [2024-11-08T03:15:20.024Z] Platform:      linux
+[debug] [2024-11-08T03:15:20.024Z] Node Version:  v18.19.1
+[debug] [2024-11-08T03:15:20.024Z] Time:          Thu Nov 07 2024 21:15:20 GMT-0600 (Central Standard Time)
+[debug] [2024-11-08T03:15:20.025Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-08T03:15:20.032Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-08T03:15:20.033Z] > authorizing via signed-in user (realherrold@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/herrold/Desktop/InsuTex Group/Web
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-11-08T03:15:38.720Z] Checked if tokens are valid: true, expires at: 1731038829196
+[debug] [2024-11-08T03:15:38.720Z] Checked if tokens are valid: true, expires at: 1731038829196
+[debug] [2024-11-08T03:15:38.723Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-11-08T03:15:39.220Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-11-08T03:15:39.220Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project erp-pos-39ec0 (InsuTex) 
+[info] 
+=== Firestore Setup
+[debug] [2024-11-08T03:15:40.687Z] Checked if tokens are valid: true, expires at: 1731038829196
+[debug] [2024-11-08T03:15:40.687Z] Checked if tokens are valid: true, expires at: 1731038829196
+[debug] [2024-11-08T03:15:40.687Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erp-pos-39ec0/services/firestore.googleapis.com [none]
+[debug] [2024-11-08T03:15:40.687Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erp-pos-39ec0/services/firestore.googleapis.com x-goog-quota-user=projects/erp-pos-39ec0
+[debug] [2024-11-08T03:15:41.263Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erp-pos-39ec0/services/firestore.googleapis.com 200
+[debug] [2024-11-08T03:15:41.263Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erp-pos-39ec0/services/firestore.googleapis.com [omitted]
+[debug] [2024-11-08T03:15:41.264Z] Checked if tokens are valid: true, expires at: 1731038829196
+[debug] [2024-11-08T03:15:41.264Z] Checked if tokens are valid: true, expires at: 1731038829196
+[debug] [2024-11-08T03:15:41.264Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/erp-pos-39ec0/databases/(default) [none]
+[debug] [2024-11-08T03:15:41.726Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/erp-pos-39ec0/databases/(default) 200
+[debug] [2024-11-08T03:15:41.727Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/erp-pos-39ec0/databases/(default) {"name":"projects/erp-pos-39ec0/databases/(default)","uid":"6c59c5ef-84a3-4f42-a8e6-40cbd57be53a","createTime":"2024-11-08T03:07:54.600702Z","updateTime":"2024-11-08T03:07:54.600702Z","locationId":"nam5","type":"FIRESTORE_NATIVE","concurrencyMode":"PESSIMISTIC","versionRetentionPeriod":"3600s","earliestVersionTime":"2024-11-08T03:07:54.600702Z","appEngineIntegrationMode":"DISABLED","keyPrefix":"s","pointInTimeRecoveryEnablement":"POINT_IN_TIME_RECOVERY_DISABLED","deleteProtectionState":"DELETE_PROTECTION_DISABLED","etag":"ILmP7NPiy4kDMK3Q6Y3hy4kD"}
+[debug] [2024-11-08T03:15:41.727Z] database_type: FIRESTORE_NATIVE
+[debug] [2024-11-08T03:15:41.727Z] database_type: FIRESTORE_NATIVE
+[debug] [2024-11-08T03:15:41.727Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-08T03:15:41.728Z] > authorizing via signed-in user (realherrold@gmail.com)
+[debug] [2024-11-08T03:15:41.728Z] [iam] checking project erp-pos-39ec0 for permissions ["firebase.projects.get"]
+[debug] [2024-11-08T03:15:41.728Z] Checked if tokens are valid: true, expires at: 1731038829196
+[debug] [2024-11-08T03:15:41.728Z] Checked if tokens are valid: true, expires at: 1731038829196
+[debug] [2024-11-08T03:15:41.728Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/erp-pos-39ec0:testIamPermissions [none]
+[debug] [2024-11-08T03:15:41.729Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/erp-pos-39ec0:testIamPermissions x-goog-quota-user=projects/erp-pos-39ec0
+[debug] [2024-11-08T03:15:41.729Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/erp-pos-39ec0:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-11-08T03:15:42.182Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/erp-pos-39ec0:testIamPermissions 200
+[debug] [2024-11-08T03:15:42.182Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/erp-pos-39ec0:testIamPermissions {"permissions":["firebase.projects.get"]}
+[info] 
+[info] Firestore Security Rules allow you to define how and when to allow
+[info] requests. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2024-11-08T03:15:45.644Z] Checked if tokens are valid: true, expires at: 1731038829196
+[debug] [2024-11-08T03:15:45.644Z] Checked if tokens are valid: true, expires at: 1731038829196
+[debug] [2024-11-08T03:15:45.644Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/erp-pos-39ec0/releases pageSize=10&pageToken=
+[debug] [2024-11-08T03:15:45.995Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/erp-pos-39ec0/releases 200
+[debug] [2024-11-08T03:15:45.996Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/erp-pos-39ec0/releases {"releases":[{"name":"projects/erp-pos-39ec0/releases/cloud.firestore","rulesetName":"projects/erp-pos-39ec0/rulesets/e03404a6-0e18-4efc-bc9e-b243c12cb8ba","createTime":"2024-11-08T03:07:59.418004Z","updateTime":"2024-11-08T03:07:59.418004Z"}]}
+[debug] [2024-11-08T03:15:45.996Z] Found ruleset: projects/erp-pos-39ec0/rulesets/e03404a6-0e18-4efc-bc9e-b243c12cb8ba
+[debug] [2024-11-08T03:15:45.996Z] Checked if tokens are valid: true, expires at: 1731038829196
+[debug] [2024-11-08T03:15:45.996Z] Checked if tokens are valid: true, expires at: 1731038829196
+[debug] [2024-11-08T03:15:45.996Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/erp-pos-39ec0/rulesets/e03404a6-0e18-4efc-bc9e-b243c12cb8ba [none]
+[debug] [2024-11-08T03:15:46.383Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/erp-pos-39ec0/rulesets/e03404a6-0e18-4efc-bc9e-b243c12cb8ba 200
+[debug] [2024-11-08T03:15:46.383Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/erp-pos-39ec0/rulesets/e03404a6-0e18-4efc-bc9e-b243c12cb8ba [omitted]
+[info] 
+[info] Firestore indexes allow you to perform complex queries while
+[info] maintaining performance that scales with the size of the result
+[info] set. You can keep index definitions in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2024-11-08T03:15:48.161Z] Checked if tokens are valid: true, expires at: 1731038829196
+[debug] [2024-11-08T03:15:48.162Z] Checked if tokens are valid: true, expires at: 1731038829196
+[debug] [2024-11-08T03:15:48.163Z] Checked if tokens are valid: true, expires at: 1731038829196
+[debug] [2024-11-08T03:15:48.163Z] Checked if tokens are valid: true, expires at: 1731038829196
+[debug] [2024-11-08T03:15:48.163Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/erp-pos-39ec0/databases/(default)/collectionGroups/-/indexes [none]
+[debug] [2024-11-08T03:15:48.168Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/erp-pos-39ec0/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* [none]
+[debug] [2024-11-08T03:15:48.632Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/erp-pos-39ec0/databases/(default)/collectionGroups/-/indexes 200
+[debug] [2024-11-08T03:15:48.633Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/erp-pos-39ec0/databases/(default)/collectionGroups/-/indexes {}
+[debug] [2024-11-08T03:15:48.636Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/erp-pos-39ec0/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* 200
+[debug] [2024-11-08T03:15:48.636Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/erp-pos-39ec0/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* {"fields":[{"name":"projects/erp-pos-39ec0/databases/(default)/collectionGroups/__default__/fields/*","indexConfig":{"indexes":[{"queryScope":"COLLECTION","fields":[{"fieldPath":"*","order":"ASCENDING"}],"state":"READY"},{"queryScope":"COLLECTION","fields":[{"fieldPath":"*","order":"DESCENDING"}],"state":"READY"},{"queryScope":"COLLECTION","fields":[{"fieldPath":"*","arrayConfig":"CONTAINS"}],"state":"READY"}]}}]}
+[info] 
+=== Functions Setup
+[debug] [2024-11-08T03:15:48.638Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-08T03:15:48.638Z] > authorizing via signed-in user (realherrold@gmail.com)
+[debug] [2024-11-08T03:15:48.638Z] [iam] checking project erp-pos-39ec0 for permissions ["firebase.projects.get"]
+[debug] [2024-11-08T03:15:48.638Z] Checked if tokens are valid: true, expires at: 1731038829196
+[debug] [2024-11-08T03:15:48.638Z] Checked if tokens are valid: true, expires at: 1731038829196
+[debug] [2024-11-08T03:15:48.638Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/erp-pos-39ec0:testIamPermissions [none]
+[debug] [2024-11-08T03:15:48.638Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/erp-pos-39ec0:testIamPermissions x-goog-quota-user=projects/erp-pos-39ec0
+[debug] [2024-11-08T03:15:48.638Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/erp-pos-39ec0:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-11-08T03:15:48.941Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/erp-pos-39ec0:testIamPermissions 200
+[debug] [2024-11-08T03:15:48.942Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/erp-pos-39ec0:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-11-08T03:15:48.942Z] Checked if tokens are valid: true, expires at: 1731038829196
+[debug] [2024-11-08T03:15:48.942Z] Checked if tokens are valid: true, expires at: 1731038829196
+[debug] [2024-11-08T03:15:48.942Z] Checked if tokens are valid: true, expires at: 1731038829196
+[debug] [2024-11-08T03:15:48.942Z] Checked if tokens are valid: true, expires at: 1731038829196
+[debug] [2024-11-08T03:15:48.943Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erp-pos-39ec0/services/cloudfunctions.googleapis.com [none]
+[debug] [2024-11-08T03:15:48.943Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erp-pos-39ec0/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/erp-pos-39ec0
+[debug] [2024-11-08T03:15:48.945Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erp-pos-39ec0/services/runtimeconfig.googleapis.com [none]
+[debug] [2024-11-08T03:15:48.945Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erp-pos-39ec0/services/runtimeconfig.googleapis.com x-goog-quota-user=projects/erp-pos-39ec0
+[debug] [2024-11-08T03:15:49.456Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erp-pos-39ec0/services/runtimeconfig.googleapis.com 200
+[debug] [2024-11-08T03:15:49.456Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erp-pos-39ec0/services/runtimeconfig.googleapis.com [omitted]
+[debug] [2024-11-08T03:15:49.458Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erp-pos-39ec0/services/cloudfunctions.googleapis.com 200
+[debug] [2024-11-08T03:15:49.458Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erp-pos-39ec0/services/cloudfunctions.googleapis.com [omitted]
+[info] Let's create a new codebase for your functions.
+[info] A directory corresponding to the codebase will be created in your project
+[info] with sample code pre-configured.
+
+[info] See https://firebase.google.com/docs/functions/organize-functions for
+[info] more information on organizing your functions using codebases.
+
+[info] Functions can be deployed with firebase deploy.
+
+[info] i  functions/package.json is unchanged 
+[info] i  functions/.eslintrc.js is unchanged 
+[info] i  functions/tsconfig.json is unchanged 
+[info] i  functions/tsconfig.dev.json is unchanged 
+[info] i  functions/src/index.ts is unchanged 
+[info] i  functions/.gitignore is unchanged 
+[info] 
+=== Hosting Setup
+[debug] [2024-11-08T03:15:59.800Z] Checked if tokens are valid: true, expires at: 1731038829196
+[debug] [2024-11-08T03:15:59.800Z] Checked if tokens are valid: true, expires at: 1731038829196
+[debug] [2024-11-08T03:15:59.801Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/erp-pos-39ec0 [none]
+[debug] [2024-11-08T03:16:00.307Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/erp-pos-39ec0 200
+[debug] [2024-11-08T03:16:00.307Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/erp-pos-39ec0 {"projectId":"erp-pos-39ec0","projectNumber":"347587290865","displayName":"InsuTex","name":"projects/erp-pos-39ec0","resources":{"hostingSite":"erp-pos-39ec0","realtimeDatabaseInstance":"erp-pos-39ec0-default-rtdb"},"state":"ACTIVE","etag":"1_4557c269-7fb0-4cec-ad54-258ff2c94e62"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2024-11-08T03:16:13.020Z] Error: ENOTDIR: not a directory, scandir '/home/herrold/Desktop/InsuTex Group/Web/y'
+    at Object.readdirSync (node:fs:1525:3)
+    at Object.createFileSync (/usr/local/lib/node_modules/firebase-tools/node_modules/fs-extra/lib/ensure/file.js:55:10)
+    at Config.writeProjectFile (/usr/local/lib/node_modules/firebase-tools/lib/config.js:159:12)
+    at /usr/local/lib/node_modules/firebase-tools/lib/config.js:193:22
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async doSetup (/usr/local/lib/node_modules/firebase-tools/lib/init/features/hosting/index.js:173:13)
+    at async init (/usr/local/lib/node_modules/firebase-tools/lib/init/index.js:41:9)
+[error] 
+[error] Error: An unexpected error has occurred.
