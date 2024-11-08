@@ -2,12 +2,16 @@
   "compilerOptions": {
     "module": "commonjs",
     "noImplicitReturns": true,
+    "jsx": "react-jsx",
     "esModuleInterop": true,
     "noUnusedLocals": true,
     "outDir": "lib",
     "sourceMap": true,
+    "skipLibCheck": true,
     "strict": true,
-    "target": "es2017"
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "target": "esnext"
   },
   "compileOnSave": true,
   "include": [
