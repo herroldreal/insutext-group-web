@@ -1,17 +1,15 @@
-// Import the functions you need from the SDKs you need
-// import {initializeApp} from "firebase/app";
-// import {getAnalytics} from "firebase/analytics";
+import * as functions from "firebase-functions";
+import * as admin from "firebase-admin";
+import 'firebase/auth'
 
-/*const firebaseConfig = {
-    apiKey: process.env.API_KEY,
-    authDomain: process.env.AUTH_DOMAIN,
-    projectId: process.env.PROJECT_ID,
-    storageBucket: process.env.STORAGE_BUCKET,
-    messagingSenderId: process.env.MESSAGING_SENDER_ID,
-    appId: process.env.APP_ID,
-    measurementId: process.env.MEASUREMENT_ID,
-};*/
+admin.initializeApp();
 
-// Initialize Firebase
-// const app = initializeApp(firebaseConfig);
-// const analytics = getAnalytics(app);
+export const helloWorld = functions.https.onRequest((req, res) => {
+    res.send("Hello from Firebase with TypeScript!");
+});
+
+/*
+export const onUserCreated = functions.auth.user().onCreate((user) => {
+    console.log(`New user created: ${user.uid}`);
+    // Lógica adicional al crear un usuario
+});*/
