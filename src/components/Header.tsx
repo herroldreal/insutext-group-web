@@ -1,14 +1,10 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import '../assets/css/style.css';
 import '../assets/css/bootstrap.min.css'
 import '../assets/css/responsive.css'
+import '../assets/css/style.css';
 import '../assets/css/ionicons.min.css'
-import '../assets/css/slick.css'
 import '../assets/css/animations.min.css'
-import '../assets/css/owl.carousel.min.css'
-import '../assets/css/progressbar.css'
-import '../assets/css/simplebar.min.css'
 
 const Header: React.FC = () => {
     return (
@@ -22,10 +18,10 @@ const Header: React.FC = () => {
                                     <ul>
                                         <li>
                                             <i className="ti-timer"></i>
-                                            <span>Lun-Vie : 9AM - 5PM</span>
-                                            <br/>
+                                            <span>Lun - Vie : 9:00AM - 5:30PM</span>
+                                            {/*<br/>
                                             <i className="ti-timer"></i>
-                                            <span>Sabado : 9AM - 1PM</span>
+                                            <span>Sabado : 9AM - 1PM</span>*/}
                                         </li>
                                         <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
                                         <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
@@ -37,7 +33,7 @@ const Header: React.FC = () => {
                                 <div className="pq-header-contact">
                                     <ul>
                                         <li>
-                                        <a href="tel:+50589517503">
+                                            <a href="tel:+50589517503">
                                                 <i className="fas fa-phone"></i>
                                                 <span>+505 8951-7503</span>
                                             </a>
@@ -62,8 +58,20 @@ const Header: React.FC = () => {
                                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                         <div id="pq-menu-contain" className="pq-menu-contain">
                                             <ul id="pq-main-menu" className="navbar-nav ml-auto">
-                                                <li className="menu-item current-menu-item menu-item-has-children">
+                                                <li className="menu-item current-menu-item">
                                                     <Link to="/home">Home</Link>
+                                                </li>
+                                                <li className="menu-item menu-item-has-children">
+                                                    <Link to={'home'}>Services</Link>
+                                                </li>
+                                                <li className="menu-item">
+                                                    <Link to={'shop'}>Shop</Link>
+                                                </li>
+                                                <li className="menu-item">
+                                                    <Link to={'blog'}>Blog</Link>
+                                                </li>
+                                                <li className="menu-item">
+                                                    <Link to={'contact'}>Contact</Link>
                                                 </li>
                                             </ul>
                                         </div>
