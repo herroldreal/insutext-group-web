@@ -20,7 +20,7 @@ const AboutUs: React.FC = () => {
                     <div className="col-xl-6 mt-4 mt-xl-0 ps-xl-5 wow animated fadeInRight">
                         <div className="pq-section-title pq-style-1 pq-mb-30">
                         <span className="pq-section-sub-title">
-                            <img decoding="async" src="/images/section-title/title-icon-primary.png" alt="image"/>About Us
+                            <img decoding="async" src="/images/section-title/title-icon-primary.png" alt=""/>About Us
                         </span>
                             <h5 className="pq-section-main-title">Let’s Build Something Creative Together</h5>
                             <p className="pq-section-description">Textiles are materials made from fibers or yarn, and

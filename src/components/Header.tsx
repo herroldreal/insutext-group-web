@@ -11,7 +11,7 @@ const Header: React.FC = () => {
             <div className="pq-background-overlay"></div>
             <div className="pq-sidebar">
                 <div className="pq-close-btn">
-                    <a className="pq-close" href="javascript:void(0)">
+                    <a className="pq-close" href="/#">
                         <i className="ion-android-close"></i>
                     </a>
                 </div>
@@ -100,10 +100,10 @@ const Header: React.FC = () => {
                     </div>
                     <div className="pq-sidebar-social">
                         <ul>
-                            <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i className="fab fa-google-plus-g"></i></a></li>
-                            <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="#"><i className="fab fa-youtube"></i></a></li>
+                            <li><a href="/#"><i className="fab fa-facebook-f"></i></a></li>
+                            <li><a href="/#"><i className="fab fa-google-plus-g"></i></a></li>
+                            <li><a href="/#"><i className="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="/#"><i className="fab fa-youtube"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -115,10 +115,10 @@ const Header: React.FC = () => {
                             <div className="col-md-6 text-right">
                                 <div className="pq-header-social text-right">
                                     <ul>
-                                        <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i className="fab fa-google-plus-g"></i></a></li>
-                                        <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
-                                        <li><a href="#"><i className="fab fa-youtube"></i></a></li>
+                                        <li><a href="/#"><i className="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="/#"><i className="fab fa-google-plus-g"></i></a></li>
+                                        <li><a href="/#"><i className="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="/#"><i className="fab fa-youtube"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -156,7 +156,7 @@ const Header: React.FC = () => {
                                         <div id="pq-menu-contain" className="pq-menu-contain">
                                             <ul id="pq-main-menu" className="navbar-nav ml-auto">
                                                 <li className="menu-item current-menu-item menu-item-has-children">
-                                                    <a href="#">Home</a>
+                                                    <a href="/#">Home</a>
                                                     <i className="fa fa-chevron-down pq-submenu-icon"></i>
                                                     <ul className="sub-menu">
                                                         <li className="menu-item">v
@@ -171,7 +171,7 @@ const Header: React.FC = () => {
                                                     </ul>
                                                 </li>
                                                 <li className="menu-item menu-item-has-children">
-                                                    <a href="#">Pages</a>
+                                                    <a href="/#">Pages</a>
                                                     <i className="fa fa-chevron-down pq-submenu-icon"></i>
                                                     <ul className="sub-menu">
                                                         <li className="menu-item">
@@ -187,11 +187,11 @@ const Header: React.FC = () => {
                                                             <a href="our-team.html">Our Team</a>
                                                         </li>
                                                         <li className="menu-item menu-item-has-children">
-                                                            <a href="#">Shop</a>
+                                                            <a href="/#">Shop</a>
                                                             <i className="fa fa-chevron-down pq-submenu-icon"></i>
                                                             <ul className="sub-menu">
                                                                 <li className="menu-item menu-item-has-children">
-                                                                    <a href="#">shop layout</a>
+                                                                    <a href="/#">shop layout</a>
                                                                     <i className="fa fa-chevron-down pq-submenu-icon"></i>
                                                                     <ul className="sub-menu">
                                                                         <li className="menu-item">
@@ -217,7 +217,7 @@ const Header: React.FC = () => {
                                                                     </ul>
                                                                 </li>
                                                                 <li className="menu-item menu-item-has-children">
-                                                                    <a href="#">product filter</a>
+                                                                    <a href="/#">product filter</a>
                                                                     <i className="fa fa-chevron-down pq-submenu-icon"></i>
                                                                     <ul className="sub-menu">
                                                                         <li className="menu-item">
@@ -242,7 +242,7 @@ const Header: React.FC = () => {
                                                     </ul>
                                                 </li>
                                                 <li className="menu-item menu-item-has-children">
-                                                    <a href="#">Services</a>
+                                                    <a href="/#">Services</a>
                                                     <i className="fa fa-chevron-down pq-submenu-icon"></i>
                                                     <ul className="sub-menu">
                                                         <li className="menu-item">
@@ -266,11 +266,11 @@ const Header: React.FC = () => {
                                                     </ul>
                                                 </li>
                                                 <li className="menu-item menu-item-has-children">
-                                                    <a href="#">Portfolio</a>
+                                                    <a href="/#">Portfolio</a>
                                                     <i className="fa fa-chevron-down pq-submenu-icon"></i>
                                                     <ul className="sub-menu">
                                                         <li className="menu-item menu-item-has-children">
-                                                            <a href="#">Projects Grid</a>
+                                                            <a href="/#">Projects Grid</a>
                                                             <i className="fa fa-chevron-down pq-submenu-icon"></i>
                                                             <ul className="sub-menu">
                                                                 <li className="menu-item">
@@ -291,7 +291,7 @@ const Header: React.FC = () => {
                                                             </ul>
                                                         </li>
                                                         <li className="menu-item menu-item-has-children">
-                                                            <a href="#">Portfolio Masonry</a>
+                                                            <a href="/#">Portfolio Masonry</a>
                                                             <i className="fa fa-chevron-down pq-submenu-icon"></i>
                                                             <ul className="sub-menu">
                                                                 <li className="menu-item">
@@ -309,7 +309,7 @@ const Header: React.FC = () => {
                                                             </ul>
                                                         </li>
                                                         <li className="menu-item menu-item-has-children">
-                                                            <a href="#">Portfolio Slider</a>
+                                                            <a href="/#">Portfolio Slider</a>
                                                             <i className="fa fa-chevron-down pq-submenu-icon"></i>
                                                             <ul className="sub-menu">
                                                                 <li className="menu-item">
@@ -337,11 +337,11 @@ const Header: React.FC = () => {
                                                     </ul>
                                                 </li>
                                                 <li className="menu-item menu-item-has-children">
-                                                    <a href="#">Blog</a>
+                                                    <a href="/#">Blog</a>
                                                     <i className="fa fa-chevron-down pq-submenu-icon"></i>
                                                     <ul className="sub-menu">
                                                         <li className="menu-item menu-item-has-children">
-                                                            <a href="#">Grid Style</a>
+                                                            <a href="/#">Grid Style</a>
                                                             <i className="fa fa-chevron-down pq-submenu-icon"></i>
                                                             <ul className="sub-menu">
                                                                 <li className="menu-item">
@@ -356,7 +356,7 @@ const Header: React.FC = () => {
                                                             </ul>
                                                         </li>
                                                         <li className="menu-item menu-item-has-children">
-                                                            <a href="#">Blog Sidebar</a>
+                                                            <a href="/#">Blog Sidebar</a>
                                                             <i className="fa fa-chevron-down pq-submenu-icon"></i>
                                                             <ul className="sub-menu">
                                                                 <li className="menu-item">
@@ -380,7 +380,7 @@ const Header: React.FC = () => {
                                         </div>
                                     </div>
                                     <div className="pq-menu-search-block">
-                                        <a href="javascript:void(0)" className="pq-tools-serach-button"
+                                        <a href="/#" className="pq-tools-serach-button"
                                            data-bs-toggle="offcanvas"
                                            data-bs-target="#offcanvassearch">
                                             <i className="ti-search"></i>
@@ -403,7 +403,7 @@ const Header: React.FC = () => {
                                     </div>
                                     <div className="pq-shop-btn">
                                         <div className="pq-cart-button">
-                                            <a href="javascript:void(0)" className="pq-tools-button"
+                                            <a href="/#" className="pq-tools-button"
                                                data-bs-toggle="offcanvas"
                                                data-bs-target="#offcanvascart">
                                                 <i className="ti-shopping-cart"></i>
@@ -425,7 +425,7 @@ const Header: React.FC = () => {
                                         </div>
                                     </div>
                                     <div className="pq-toggle-btn">
-                                        <a href="javascript:void(0)" className="menu-toggle">Menu</a>
+                                        <a href="/#" className="menu-toggle">Menu</a>
                                     </div>
                                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#navbarSupportedContent"

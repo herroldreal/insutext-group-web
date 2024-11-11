@@ -29,7 +29,7 @@ const Testimonial: React.FC = () => {
                     <div className="col-xl-7 mt-4 mt-xl-0 pq-ps-60">
                         <div className="pq-section-title pq-style-1 pq-mb-30">
                         <span className="pq-section-sub-title">
-                            <img decoding="async" src="/images/section-title/title-icon-primary.png" alt="image"/>our testimonials
+                            <img decoding="async" src="/images/section-title/title-icon-primary.png" alt=""/>our testimonials
                         </span>
                             <h5 className="pq-section-main-title">what our happy clients say</h5>
                         </div>

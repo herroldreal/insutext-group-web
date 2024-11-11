@@ -13,7 +13,7 @@ const Products: React.FC = () => {
                     <div className="col-lg-12">
                         <div className="pq-section-title pq-style-1 text-center">
                         <span className="pq-section-sub-title">
-                            <img decoding="async" src="/images/section-title/title-icon-primary.png" alt="image"/>our product
+                            <img alt='' decoding="async" src="/images/section-title/title-icon-primary.png"/>our product
                         </span>
                             <h5 className="pq-section-main-title">the textiles product appear</h5>
                         </div>

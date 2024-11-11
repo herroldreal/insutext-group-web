@@ -13,7 +13,7 @@ const ServiceSection: React.FC = () => {
                     <div className="col-xl-4 wow animated fadeInLeft">
                         <div className="pq-section-title pq-style-1 pq-mb-45">
                         <span className="pq-section-sub-title">
-                            <img decoding="async" src="/images/section-title/title-icon-primary.png" alt="image"/>our services
+                            <img decoding="async" src="/images/section-title/title-icon-primary.png" alt=""/>our services
                         </span>
                             <h5 className="pq-section-main-title">Exploring the Role of Textiles</h5>
                             <p className="pq-section-description">Textiles are materials made from fibers or yarn, and

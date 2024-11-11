@@ -4508,6 +4508,18 @@ Client
 
 }
 
+.pq-client-box.pq-style-1 div:hover .pq-client-img {
+	-webkit-transform: translateY(100%);
+	-moz-transform: translateY(100%);
+	transform: translateY(100%)
+}
+
+.pq-client-box.pq-style-1 div:hover .pq-client-hover-img {
+	-webkit-transform: translate(-50%, 0);
+	-moz-transform: translate(-50%, 0);
+	transform: translate(-50%, 0);
+}
+
 .pq-client-box.pq-style-1 a:hover .pq-client-img {
 	-webkit-transform: translateY(100%);
 	-moz-transform: translateY(100%);

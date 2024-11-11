@@ -13,7 +13,7 @@ const Productions: React.FC = () => {
                     <div className="col-lg-12">
                         <div className="pq-section-title pq-style-1 text-center">
                         <span className="pq-section-sub-title">
-                            <img decoding="async" src="/images/section-title/title-icon-primary.png" alt="image"/>our production
+                            <img alt='' decoding="async" src="/images/section-title/title-icon-primary.png"/>our production
                         </span>
                             <h5 className="pq-section-main-title">Textiles and Fashion From Reducing Runway</h5>
                         </div>

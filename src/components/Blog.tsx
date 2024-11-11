@@ -18,7 +18,7 @@ const Blog: React.FC = () => {
                     <div className="col-lg-12">
                         <div className="pq-section-title pq-style-1 text-center">
                         <span className="pq-section-sub-title">
-                            <img decoding="async" src="/images/section-title/title-icon-primary.png" alt="image"/>our latest blog
+                            <img decoding="async" src="/images/section-title/title-icon-primary.png" alt=""/>our latest blog
                         </span>
                             <h5 className="pq-section-main-title">whatch our latest blog </h5>
                         </div>

@@ -35,7 +35,7 @@ const Process: React.FC = () => {
                     <div className="col-lg-12">
                         <div className="pq-section-title pq-style-1 text-center">
                         <span className="pq-section-sub-title">
-                            <img decoding="async" src="/images/section-title/title-icon-primary.png" alt="image"/>our working process
+                            <img alt='' decoding="async" src="/images/section-title/title-icon-primary.png"/>our working process
                         </span>
                             <h5 className="pq-section-main-title">We Give Top Production From Every Angle</h5>
                         </div>

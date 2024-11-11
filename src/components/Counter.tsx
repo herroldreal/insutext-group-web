@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, {useEffect, useMemo, useState} from 'react';
 
 interface CounterItem {
     value: number;
@@ -8,11 +8,11 @@ interface CounterItem {
 }
 
 const Counter: React.FC = () => {
-    const counterItems: CounterItem[] = [
+    const counterItems: CounterItem[] = useMemo(() => [
         { value: 45, title: 'Dry Cleaning', description: 'The Intersection of Textiles and Fine Art', iconClass: 'flaticon-sewing-machine' },
         { value: 55, title: 'finish projects', description: 'The Intersection of Textiles and Fine Art', iconClass: 'flaticon-textile-printing' },
         { value: 65, title: 'trusted clients', description: 'The Intersection of Textiles and Fine Art', iconClass: 'flaticon-clothes-1' },
-    ];
+    ], []);
 
     const [currentValues, setCurrentValues] = useState<number[]>(counterItems.map(() => 0));
 
@@ -27,6 +27,7 @@ const Counter: React.FC = () => {
 
         return () => clearInterval(intervalId);
     }, [counterItems]);
+
 
     return (
         <section className="counter pq-bg-dark pq-bg-img-6 pq-py-90 wow animated fadeInUp">

@@ -140,10 +140,10 @@ const Footer: React.FC = () => {
                             <div className="col-md-6 text-center text-md-start">
                                 <div className="pq-footer-social">
                                     <ul>
-                                        <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i className="fab fa-google-plus-g"></i></a></li>
-                                        <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
-                                        <li><a href="#"><i className="fab fa-youtube"></i></a></li>
+                                        <li><a href="/#"><i className="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="/#"><i className="fab fa-google-plus-g"></i></a></li>
+                                        <li><a href="/#"><i className="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="/#"><i className="fab fa-youtube"></i></a></li>
                                     </ul>
                                 </div>
                             </div>

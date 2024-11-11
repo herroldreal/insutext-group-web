@@ -25,62 +25,62 @@ const Clients: React.FC = () => {
                                  data-autoplay="false" data-loop="true" data-margin="30">
                                 <div className="item">
                                     <div className="pq-client-box pq-style-1">
-                                        <a>
+                                        <div>
                                             <img decoding="async" src="/images/client/slider/1.png" alt="pq-client-img"
                                                  className="pq-client-img"/>
                                             <img decoding="async" src="/images/client/slider/h1.png" alt="pq-client-img"
                                                  className="pq-client-hover-img"/>
-                                        </a>
+                                        </div>
                                     </div>
                                 </div>
                                 <div className="item">
                                     <div className="pq-client-box pq-style-1">
-                                        <a>
+                                        <div>
                                             <img decoding="async" src="/images/client/slider/2.png" alt="pq-client-img"
                                                  className="pq-client-img"/>
                                             <img decoding="async" src="/images/client/slider/h2.png" alt="pq-client-img"
                                                  className="pq-client-hover-img"/>
-                                        </a>
+                                        </div>
                                     </div>
                                 </div>
                                 <div className="item">
                                     <div className="pq-client-box pq-style-1">
-                                        <a>
+                                        <div>
                                             <img decoding="async" src="/images/client/slider/3.png" alt="pq-client-img"
                                                  className="pq-client-img"/>
                                             <img decoding="async" src="/images/client/slider/h3.png" alt="pq-client-img"
                                                  className="pq-client-hover-img"/>
-                                        </a>
+                                        </div>
                                     </div>
                                 </div>
                                 <div className="item">
                                     <div className="pq-client-box pq-style-1">
-                                        <a>
+                                        <div>
                                             <img decoding="async" src="/images/client/slider/4.png" alt="pq-client-img"
                                                  className="pq-client-img"/>
                                             <img decoding="async" src="/images/client/slider/h4.png" alt="pq-client-img"
                                                  className="pq-client-hover-img"/>
-                                        </a>
+                                        </div>
                                     </div>
                                 </div>
                                 <div className="item">
                                     <div className="pq-client-box pq-style-1">
-                                        <a>
+                                        <div>
                                             <img decoding="async" src="/images/client/slider/5.png" alt="pq-client-img"
                                                  className="pq-client-img"/>
                                             <img decoding="async" src="/images/client/slider/h5.png" alt="pq-client-img"
                                                  className="pq-client-hover-img"/>
-                                        </a>
+                                        </div>
                                     </div>
                                 </div>
                                 <div className="item">
                                     <div className="pq-client-box pq-style-1">
-                                        <a>
+                                        <div>
                                             <img decoding="async" src="/images/client/slider/6.png" alt="pq-client-img"
                                                  className="pq-client-img"/>
                                             <img decoding="async" src="/images/client/slider/h6.png" alt="pq-client-img"
                                                  className="pq-client-hover-img"/>
-                                        </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
