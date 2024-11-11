@@ -20,12 +20,11 @@ const AboutUs: React.FC = () => {
                     <div className="col-xl-6 mt-4 mt-xl-0 ps-xl-5 wow animated fadeInRight">
                         <div className="pq-section-title pq-style-1 pq-mb-30">
                         <span className="pq-section-sub-title">
-                            <img decoding="async" src="/images/section-title/title-icon-primary.png" alt=""/>About Us
+                            <img decoding="async" src="/images/section-title/title-icon-primary.png" alt=""/>Acerca de nosotros
                         </span>
-                            <h5 className="pq-section-main-title">Let’s Build Something Creative Together</h5>
-                            <p className="pq-section-description">Textiles are materials made from fibers or yarn, and
-                                they are used to create widetest range of products such as clothing and industrial
-                                goods.</p>
+                            <h5 className="pq-section-main-title">Construyamos algo creativo juntos</h5>
+                            <p className="pq-section-description">Los textiles son materiales fabricados a partir de fibras o hilos y
+                                se utilizan para crear una amplia gama de productos, como ropa y bienes industriales.</p>
                         </div>
                         <ul className="pq-list-check pq-mb-45">
                             <li>

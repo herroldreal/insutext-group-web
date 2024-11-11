@@ -136,7 +136,7 @@ const Banner: React.FC = () => {
                                           fontFamily: 'Red Hat Display',
                                           textTransform: "uppercase"
                                       }}>welcome
-                                to texttica
+                                to InsuTex
                             </rs-layer>
                             <rs-layer id="slider-4-slide-13-layer-1" data-type="text" data-rsp_ch="on"
                                       data-xy="x:l,l,l,c;xo:30px,30px,30px,0;y:m;yo:-20px,-20px,21px,3px;"

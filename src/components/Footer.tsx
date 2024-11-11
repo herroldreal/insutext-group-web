@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
                                                 <i className="ti-location-pin"></i>
                                                 <div className="pq-footer-items-info">
                                                     <h4>address</h4>
-                                                    <span>Themeforest, Envato HQ</span>
+                                                    <span>Calle 27 de mayo, Plaza Jimenez</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -40,8 +40,8 @@ const Footer: React.FC = () => {
                                                 <i className="ti-mobile"></i>
                                                 <div className="pq-footer-items-info">
                                                     <h4>call Us On</h4>
-                                                    <a href="tel:+180045647824">
-                                                        <span>+1800-001-6555</span>
+                                                    <a href="tel:+50589517503">
+                                                        <span>+505 8951-7503</span>
                                                     </a>
                                                 </div>
                                             </div>
@@ -51,8 +51,8 @@ const Footer: React.FC = () => {
                                                 <i className="ti-email"></i>
                                                 <div className="pq-footer-items-info">
                                                     <h4>Email Us</h4>
-                                                    <a href="mailto:info@peacefulqode.com">
-                                                        <span>info@peacefulqode.com</span>
+                                                    <a href="mailto:info@insutexgroup.com">
+                                                        <span>info@insutexgroup.com</span>
                                                     </a>
                                                 </div>
                                             </div>
@@ -66,27 +66,30 @@ const Footer: React.FC = () => {
                         <div className="row">
                             <div className="col-xl-3 col-md-6">
                                 <div className="widget">
-                                    <h4 className="footer-title">About Textica</h4>
+                                    <h4 className="footer-title">About InsuTex Group</h4>
                                     <p>It helps designers plan out where the content will sit, the content to be written
                                         and approved.</p>
                                 </div>
                             </div>
                             <div className="col-xl-3  col-md-6">
                                 <div className="widget">
-                                    <h4 className="footer-title">Textica Services</h4>
+                                    <h4 className="footer-title">InsuTex Services</h4>
                                     <div className="menu-textile-service-container">
                                         <ul id="menu-textile-service" className="menu">
                                             <li className="menu-item">
-                                                <a href="fabric-printing.html">Fabric Printing</a>
+                                                <a href="fabric-printing.html">Maquinas Industrial & Casera</a>
                                             </li>
                                             <li className="menu-item">
-                                                <a href="we-design-fabric.html">We Design Fabric</a>
+                                                <a href="we-design-fabric.html">Repuestos y Talleres</a>
                                             </li>
                                             <li className="menu-item">
-                                                <a href="stich-fabric.html">Stich Fabric</a>
+                                                <a href="stich-fabric.html">Manufactura</a>
                                             </li>
                                             <li className="menu-item">
-                                                <a href="engineering.html">Engineering</a>
+                                                <a href="engineering.html">Insumos Textiles</a>
+                                            </li>
+                                            <li className="menu-item">
+                                                <a href="">Bordados</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -94,20 +97,17 @@ const Footer: React.FC = () => {
                             </div>
                             <div className="col-xl-3  col-md-6">
                                 <div className="widget">
-                                    <h4 className="footer-title">Usefull Links</h4>
+                                    <h4 className="footer-title">InsuTex</h4>
                                     <div className="menu-useful-links-container">
                                         <ul id="menu-useful-links" className="menu">
                                             <li className="menu-item">
-                                                <a href="about-us.html">About Us</a>
+                                                <a href="about-us.html">Acerca de...</a>
                                             </li>
                                             <li className="menu-item">
-                                                <a href="our-services.html">Our Services</a>
+                                                <a href="our-services.html">Nuestros Servicios</a>
                                             </li>
                                             <li className="menu-item">
-                                                <a href="our-team.html">Our Team</a>
-                                            </li>
-                                            <li className="menu-item">
-                                                <a href="our-pricing.html">Our Pricing</a>
+                                                <a href="our-team.html">Tienda</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -141,14 +141,13 @@ const Footer: React.FC = () => {
                                 <div className="pq-footer-social">
                                     <ul>
                                         <li><a href="/#"><i className="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="/#"><i className="fab fa-google-plus-g"></i></a></li>
                                         <li><a href="/#"><i className="fab fa-linkedin-in"></i></a></li>
                                         <li><a href="/#"><i className="fab fa-youtube"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div className="col-md-6 text-center text-md-end">
-                                <span className="pq-copyright"> Proudly Powered By Textica</span>
+                                <span className="pq-copyright"> Proudly Powered By InsuTex Group</span>
                             </div>
                         </div>
                     </div>
