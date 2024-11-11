@@ -1,123 +1,184 @@
 import React from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import '../assets/css/slick.css'
-import '../assets/css/bootstrap.min.css'
-import '../assets/css/responsive.css'
+import '../assets/css/bootstrap.min.css';
+import '../assets/css/responsive.css';
 import '../assets/css/style.css';
-import '../assets/css/ionicons.min.css'
-import '../assets/css/animations.min.css'
-
-interface TestimonialItem {
-    image: string;
-    reviewerImage: string;
-    name: string;
-    title: string;
-    comment: string;
-    rating: number;
-}
-
-const testimonials: TestimonialItem[] = [
-    {
-        image: 'images/testimonial/slider/testimonial-style-1/1.jpg',
-        reviewerImage: 'images/testimonial/slider/testimonial-style-1/review-from/1.png',
-        name: 'Alex John Martin',
-        title: 'Senior Manager',
-        comment: 'These services involve cleaning and washing textiles, such as clothing, linens, and towels.',
-        rating: 5,
-    },
-    {
-        image: 'images/testimonial/slider/testimonial-style-1/2.jpg',
-        reviewerImage: 'images/testimonial/slider/testimonial-style-1/review-from/1.png',
-        name: 'Niku Harrison',
-        title: 'Owner',
-        comment: 'These services involve cleaning and washing textiles, such as clothing, linens, and towels.',
-        rating: 5,
-    },
-    {
-        image: 'images/testimonial/slider/testimonial-style-1/3.jpg',
-        reviewerImage: 'images/testimonial/slider/testimonial-style-1/review-from/1.png',
-        name: 'Leia Organa',
-        title: 'Fashion Designer',
-        comment: 'These services involve cleaning and washing textiles, such as clothing, linens, and towels.',
-        rating: 5,
-    },
-    {
-        image: 'images/testimonial/slider/testimonial-style-1/4.jpg',
-        reviewerImage: 'images/testimonial/slider/testimonial-style-1/review-from/1.png',
-        name: 'David K. Morris',
-        title: 'Senior Manager',
-        comment: 'These services involve cleaning and washing textiles, such as clothing, linens, and towels.',
-        rating: 5,
-    },
-];
+import '../assets/css/owl.carousel.min.css';
 
 const Testimonial: React.FC = () => {
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: { slidesToShow: 2 },
-            },
-            {
-                breakpoint: 600,
-                settings: { slidesToShow: 1 },
-            },
-        ],
-    };
-
     return (
-        <section className="testimonial wow animated fadeInUp">
+        <section className="testimonial pq-bg-dark pq-bg-img-7 pb-xl-0">
             <div className="container">
-                <div className="row justify-content-center">
-                    <div className="col-xl-11">
-                        <div className="pq-section-title pq-style-1 text-center">
-              <span className="pq-section-sub-title">
-                <img decoding="async" src="images/section-title/title-icon-primary.png" alt="testimonial icon" />
-                our testimonials
-              </span>
-                            <h5 className="pq-section-main-title">what our happy clients say about us</h5>
+                <div className="row">
+                    <div className="col-xl-5">
+                        <div className="pq-testimonial-image-box">
+                            <img src="/images/testimonial/1.jpg" alt=""/>
+                            <div className="pq-quote">
+                                <i className="fas fa-quote-right"></i>
+                            </div>
+                            <div className="pq-icon-box pq-style-2">
+                                <div className="pq-icon">
+                                    <i className="flaticon-sewing-machine"></i>
+                                </div>
+                                <div className="pq-icon-box-content">
+                                    <h6 className="pq-icon-box-title">Over All Rating</h6>
+                                    <p className="pq-icon-box-description">Based on 2555 Reviews</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div className="col-lg-12">
-                        <Slider {...settings}>
-                            {testimonials.map((testimonial, index) => (
-                                <div className="pq-testimonial-box pq-style-1" key={index}>
-                                    <div className="pq-testimonial-img">
-                                        <img src={testimonial.image} alt="testimonial-img" />
-                                        <span className="pq-review-img">
-                      <img src={testimonial.reviewerImage} alt="reviewer-img" />
-                    </span>
-                                    </div>
-                                    <div className="pq-testimonial-info">
-                                        <div className="pq-testimonial-meta">
-                                            <div className="pq-testimonial-data">
-                                                <h5>{testimonial.name}</h5>
-                                                <span>{testimonial.title}</span>
+                    <div className="col-xl-7 mt-4 mt-xl-0 pq-ps-60">
+                        <div className="pq-section-title pq-style-1 pq-mb-30">
+                        <span className="pq-section-sub-title">
+                            <img decoding="async" src="/images/section-title/title-icon-primary.png" alt="image"/>our testimonials
+                        </span>
+                            <h5 className="pq-section-main-title">what our happy clients say</h5>
+                        </div>
+                        <div className="pq-testimonial-box-slider pq-style-2">
+                            <div className="owl-carousel owl-loaded owl-drag" data-dots="false" data-nav="true"
+                                 data-desk_num="1" data-lap_num="1" data-tab_num="1" data-mob_num="1" data-mob_sm="1"
+                                 data-autoplay="false" data-loop="false" data-margin="30">
+                                <div className="item">
+                                    <div className="pq-testimonial-box pq-style-2">
+                                        <div className="pq-testimonial-content">
+                                            <p>Textiles are materials made from fibers or yarn, and they are used to
+                                                create a wide
+                                                range of products such as clothing, household items, and industrial
+                                                goods. The
+                                                fibers used in textiles can be natural, such as cotton, wool, and silk,
+                                                or
+                                                synthetic, such as polyester, nylon, and acrylic. Textiles can be woven,
+                                                knitted, or
+                                                crocheted, and they can be dyed.</p>
+                                        </div>
+                                        <div className="pq-testimonial-info">
+                                            <div className="pq-testimonial-meta">
+                                                <div className="pq-testimonial-star">
+                                                    <i className="fa fa-star"></i>
+                                                    <i className="fa fa-star"></i>
+                                                    <i className="fa fa-star"></i>
+                                                    <i className="fa fa-star"></i>
+                                                    <i className="fa fa-star"></i>
+                                                </div>
+                                                <div className="pq-testimonial-img">
+                                                    <img decoding="async"
+                                                         src="/images/testimonial/slider/testimonial-style-2/1.jpg"
+                                                         alt="testimonial-img"/>
+                                                </div>
+                                                <div className="pq-testimonial-data">
+                                                    <h5>alex john martin</h5>
+                                                    <span>Photographer</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="pq-testimonial-content">
-                                        <div className="pq-quote">
-                                            <i className="fa fa-quote-right" aria-hidden="true"></i>
+                                </div>
+                                <div className="item">
+                                    <div className="pq-testimonial-box pq-style-2">
+                                        <div className="pq-testimonial-content">
+                                            <p>Textiles are materials made from fibers or yarn, and they are used to
+                                                create a wide
+                                                range of products such as clothing, household items, and industrial
+                                                goods. The
+                                                fibers used in textiles can be natural, such as cotton, wool, and silk,
+                                                or
+                                                synthetic, such as polyester, nylon, and acrylic. Textiles can be woven,
+                                                knitted, or
+                                                crocheted, and they can be dyed.</p>
                                         </div>
-                                        <p>{testimonial.comment}</p>
-                                    </div>
-                                    <h5 className="pq-testimonial-commnet">Quality Services</h5>
-                                    <div className="pq-testimonial-star">
-                                        {[...Array(testimonial.rating)].map((_, i) => (
-                                            <i className="fa fa-star" key={i}></i>
-                                        ))}
+                                        <div className="pq-testimonial-info">
+                                            <div className="pq-testimonial-meta">
+                                                <div className="pq-testimonial-star">
+                                                    <i className="fa fa-star"></i>
+                                                    <i className="fa fa-star"></i>
+                                                    <i className="fa fa-star"></i>
+                                                    <i className="fa fa-star"></i>
+                                                    <i className="fa fa-star"></i>
+                                                </div>
+                                                <div className="pq-testimonial-img">
+                                                    <img decoding="async"
+                                                         src="/images/testimonial/slider/testimonial-style-2/2.jpg"
+                                                         alt="testimonial-img"/>
+                                                </div>
+                                                <div className="pq-testimonial-data">
+                                                    <h5>Leia Organa</h5>
+                                                    <span>Fashion Designer</span>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            ))}
-                        </Slider>
+                                <div className="item">
+                                    <div className="pq-testimonial-box pq-style-2">
+                                        <div className="pq-testimonial-content">
+                                            <p>Textiles are materials made from fibers or yarn, and they are used to
+                                                create a wide
+                                                range of products such as clothing, household items, and industrial
+                                                goods. The
+                                                fibers used in textiles can be natural, such as cotton, wool, and silk,
+                                                or
+                                                synthetic, such as polyester, nylon, and acrylic. Textiles can be woven,
+                                                knitted, or
+                                                crocheted, and they can be dyed.</p>
+                                        </div>
+                                        <div className="pq-testimonial-info">
+                                            <div className="pq-testimonial-meta">
+                                                <div className="pq-testimonial-star">
+                                                    <i className="fa fa-star"></i>
+                                                    <i className="fa fa-star"></i>
+                                                    <i className="fa fa-star"></i>
+                                                    <i className="fa fa-star"></i>
+                                                    <i className="fa fa-star"></i>
+                                                </div>
+                                                <div className="pq-testimonial-img">
+                                                    <img decoding="async"
+                                                         src="/images/testimonial/slider/testimonial-style-2/3.jpg"
+                                                         alt="testimonial-img"/>
+                                                </div>
+                                                <div className="pq-testimonial-data">
+                                                    <h5>David K. Morris</h5>
+                                                    <span>Photographer</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="item">
+                                    <div className="pq-testimonial-box pq-style-2">
+                                        <div className="pq-testimonial-content">
+                                            <p>Textiles are materials made from fibers or yarn, and they are used to
+                                                create a wide
+                                                range of products such as clothing, household items, and industrial
+                                                goods. The
+                                                fibers used in textiles can be natural, such as cotton, wool, and silk,
+                                                or
+                                                synthetic, such as polyester, nylon, and acrylic. Textiles can be woven,
+                                                knitted, or
+                                                crocheted, and they can be dyed.</p>
+                                        </div>
+                                        <div className="pq-testimonial-info">
+                                            <div className="pq-testimonial-meta">
+                                                <div className="pq-testimonial-star">
+                                                    <i className="fa fa-star"></i>
+                                                    <i className="fa fa-star"></i>
+                                                    <i className="fa fa-star"></i>
+                                                    <i className="fa fa-star"></i>
+                                                    <i className="fa fa-star"></i>
+                                                </div>
+                                                <div className="pq-testimonial-img">
+                                                    <img decoding="async"
+                                                         src="/images/testimonial/slider/testimonial-style-2/4.jpg"
+                                                         alt="testimonial-img"/>
+                                                </div>
+                                                <div className="pq-testimonial-data">
+                                                    <h5>alex john martin</h5>
+                                                    <span>Photographer</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

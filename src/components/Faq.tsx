@@ -49,7 +49,7 @@ const FAQ: React.FC = () => {
                     <div className="col-xl-6 pe-xl-5 wow animated fadeInLeft">
                         <div className="pq-section-title pq-style-1 pq-mb-45">
               <span className="pq-section-sub-title">
-                <img decoding="async" src="images/section-title/title-icon-primary.png" alt="FAQ Icon" />
+                <img decoding="async" src="/images/section-title/title-icon-primary.png" alt="FAQ Icon" />
                 our faq
               </span>
                             <h5 className="pq-section-main-title">why people are choose us for textile work</h5>

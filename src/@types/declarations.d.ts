@@ -2,6 +2,8 @@ declare module './components/Header'
 
 declare module 'react-rev-slider';
 
+declare module '../assets/js/wow.min.js'
+
 declare namespace JSX {
     interface IntrinsicElements {
         'rs-layer': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
