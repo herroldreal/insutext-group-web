@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
                                                 <div className="pq-footer-items-info">
                                                     <h4>call Us On</h4>
                                                     <a href="tel:+50589517503">
-                                                        <span>+505 8951-7503</span>
+                                                        <span>+505 8951 7503</span>
                                                     </a>
                                                 </div>
                                             </div>
@@ -66,14 +66,15 @@ const Footer: React.FC = () => {
                         <div className="row">
                             <div className="col-xl-3 col-md-6">
                                 <div className="widget">
-                                    <h4 className="footer-title">About InsuTex Group</h4>
-                                    <p>It helps designers plan out where the content will sit, the content to be written
-                                        and approved.</p>
+                                    <h4 className="footer-title">Sobre InsuTex Group</h4>
+                                    <p> Brindando soluciones integrales para tus necesidades de costura,
+                                        bordado, serigrafía y sublimación textil desde 2001.
+                                    </p>
                                 </div>
                             </div>
                             <div className="col-xl-3  col-md-6">
                                 <div className="widget">
-                                    <h4 className="footer-title">InsuTex Services</h4>
+                                    <h4 className="footer-title">Servicios</h4>
                                     <div className="menu-textile-service-container">
                                         <ul id="menu-textile-service" className="menu">
                                             <li className="menu-item">
@@ -101,13 +102,10 @@ const Footer: React.FC = () => {
                                     <div className="menu-useful-links-container">
                                         <ul id="menu-useful-links" className="menu">
                                             <li className="menu-item">
-                                                <a href="about-us.html">Acerca de...</a>
+                                                <a href="about-us.html">Sobre nosotros</a>
                                             </li>
                                             <li className="menu-item">
-                                                <a href="our-services.html">Nuestros Servicios</a>
-                                            </li>
-                                            <li className="menu-item">
-                                                <a href="our-team.html">Tienda</a>
+                                                <a href="our-team.html">Tienda en linea</a>
                                             </li>
                                         </ul>
                                     </div>
