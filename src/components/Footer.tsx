@@ -89,7 +89,7 @@ const Footer: React.FC = () => {
                                                 <a href="engineering.html">Insumos Textiles</a>
                                             </li>
                                             <li className="menu-item">
-                                                <a href="">Bordados</a>
+                                                <a href="/#">Bordados</a>
                                             </li>
                                         </ul>
                                     </div>
