@@ -3,9 +3,9 @@ import '../assets/css/ionicons.min.css'
 import '../assets/css/slick.css';
 import '../assets/css/bootstrap.min.css';
 import '../assets/css/style.css';
+import '../assets/css/responsive.css'
 import '../assets/css/simplebar.min.css';
 import '../assets/css/animations.min.css';
-import '../assets/css/responsive.css'
 import '../assets/css/magnific-popup.min.css';
 import '../assets/css/progressbar.css'
 import '../assets/css/owl.carousel.min.css';

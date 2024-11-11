@@ -44,7 +44,7 @@ const Banner: React.FC = () => {
                                           backgroundColor: 'rgba(254,127,50,0)',
                                           fontFamily: "'Red Hat Display'",
                                           textTransform: 'uppercase'
-                                      }}>welcome to InsuTex
+                                      }}>Bienvenido a InsuTex
                             </rs-layer>
                             <rs-layer id="slider-4-slide-10-layer-1" data-type="text" data-rsp_ch="on"
                                       data-xy="x:l,l,l,c;xo:30px,30px,30px,0;y:m;yo:-20px,-20px,22px,3px;"
@@ -56,7 +56,7 @@ const Banner: React.FC = () => {
                                           zIndex: 8,
                                           fontFamily: "'Red Hat Display'",
                                           textTransform: 'capitalize'
-                                      }}>we have also a ton of fun the process<br/>
+                                      }}>Soluciones integrales textil<br/>
                             </rs-layer>
                             <rs-layer id="slider-4-slide-10-layer-2" data-type="image" data-rsp_ch="on"
                                       data-xy="x:l,l,l,c;xo:30px,30px,30px,-90px;y:m;yo:-124px,-109px,-55px,-57px;"
@@ -91,7 +91,7 @@ const Banner: React.FC = () => {
                                    fontFamily: "'Red Hat Display'",
                                    textTransform: 'uppercase'
                                }}>
-                                <div className="pq-button-block"><span className="pq-button-text">read more</span>
+                                <div className="pq-button-block"><span className="pq-button-text">Ir a la tienda</span>
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg" className="pq-svg-arrow" width="34.899"
                                         height="14.585"
@@ -110,10 +110,8 @@ const Banner: React.FC = () => {
                                       data-vbility="t,t,f,f" data-frame_0="y:50,39,29,17;"
                                       data-frame_1="st:900;sp:1000;sR:900;"
                                       data-frame_999="o:0;st:w;sp:0;sR:7100;"
-                                      style={{zIndex: 7, fontFamily: 'Open Sans'}}>Textiles are
-                                materials made from fibers or yarn, and they are used to create a wide range of
-                                products such as
-                                clothing, household items, and industrial goods.
+                                      style={{zIndex: 7, fontFamily: 'Open Sans'}}>Somos lideres en soluciones integrales para la industria textil por mas de 4 decadas, lideres en el mercado
+                                con las mejores marcas industriales y caseras.
                             </rs-layer>
                         </rs-slide>
                         <rs-slide style={{position: "absolute"}} data-key="rs-13" data-title="Slide"
@@ -135,8 +133,7 @@ const Banner: React.FC = () => {
                                           backgroundColor: 'rgba(254, 127, 50, 0)',
                                           fontFamily: 'Red Hat Display',
                                           textTransform: "uppercase"
-                                      }}>welcome
-                                to InsuTex
+                                      }}>Bienvenido a InsuTex
                             </rs-layer>
                             <rs-layer id="slider-4-slide-13-layer-1" data-type="text" data-rsp_ch="on"
                                       data-xy="x:l,l,l,c;xo:30px,30px,30px,0;y:m;yo:-20px,-20px,21px,3px;"
@@ -148,9 +145,7 @@ const Banner: React.FC = () => {
                                           zIndex: 8,
                                           fontFamily: 'Red Hat Display',
                                           textTransform: 'capitalize'
-                                      }}>Dry
-                                cleaning services
-                                use textiles clean
+                                      }}>Innova tu mundo textil
                             </rs-layer>
                             <rs-layer id="slider-4-slide-13-layer-2" data-type="image" data-rsp_ch="on"
                                       data-xy="x:l,l,l,c;xo:30px,30px,30px,-90px;y:m;yo:-124px,-109px,-56px,-57px;"
@@ -185,7 +180,7 @@ const Banner: React.FC = () => {
                                    fontFamily: 'Red Hat Display',
                                    textTransform: 'uppercase'
                                }}>
-                                <div className="pq-button-block"><span className="pq-button-text">read more</span>
+                                <div className="pq-button-block"><span className="pq-button-text">Ir a la tienda</span>
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg" className="pq-svg-arrow" width="34.899"
                                         height="14.585"
@@ -207,10 +202,7 @@ const Banner: React.FC = () => {
                                       style={{
                                           zIndex: 7,
                                           fontFamily: 'Open Sans'
-                                      }}>Textiles are
-                                materials made from fibers or yarn, and they are used to create a wide range of
-                                products such as
-                                clothing, household items, and industrial goods.
+                                      }}>Soluciones textiles para cada etapa de tu proyecto, desde la creación casera hasta la producción industrial. Calidad, tecnología y versatilidad para transformar tus ideas en realidad.
                             </rs-layer>
                         </rs-slide>
                         <rs-slide style={{position: 'absolute'}} data-key="rs-16" data-title="Slide"
@@ -232,7 +224,7 @@ const Banner: React.FC = () => {
                                           backgroundColor: 'rgba(254,127,50,0)',
                                           fontFamily: 'Red Hat Display',
                                           textTransform: 'uppercase'
-                                      }}>welcome to InsuTex
+                                      }}>Bienvenido a InsuTex
                             </rs-layer>
                             <rs-layer id="slider-4-slide-16-layer-1" data-type="text" data-rsp_ch="on"
                                       data-xy="x:l,l,l,c;xo:30px,30px,30px,0;y:m;yo:-20px,-20px,21px,3px;"
@@ -244,9 +236,7 @@ const Banner: React.FC = () => {
                                           zIndex: 8,
                                           fontFamily: 'Red Hat Display',
                                           textTransform: 'capitalize'
-                                      }}>Textiles
-                                are
-                                materials made from fibers
+                                      }}>Materiales y equipo para cada visión
                             </rs-layer>
                             <rs-layer id="slider-4-slide-16-layer-2" data-type="image" data-rsp_ch="on"
                                       data-xy="x:l,l,l,c;xo:30px,30px,30px,-90px;y:m;yo:-124px,-109px,-56px,-57px;"
@@ -281,7 +271,7 @@ const Banner: React.FC = () => {
                                    fontFamily: 'Red Hat Display',
                                    textTransform: 'uppercase'
                                }}>
-                                <div className="pq-button-block"><span className="pq-button-text">read more</span>
+                                <div className="pq-button-block"><span className="pq-button-text">Ir a la tienda</span>
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg" className="pq-svg-arrow" width="34.899"
                                         height="14.585"
@@ -300,10 +290,7 @@ const Banner: React.FC = () => {
                                       data-vbility="t,t,f,f" data-frame_0="y:50,39,29,17;"
                                       data-frame_1="st:900;sp:1000;sR:900;"
                                       data-frame_999="o:0;st:w;sp:0;sR:7100;"
-                                      style={{zIndex: 7, fontFamily: 'Open Sans'}}>Textiles are
-                                materials made from fibers or yarn, and they are used to create a wide range of
-                                products such as
-                                clothing, household items, and industrial goods.
+                                      style={{zIndex: 7, fontFamily: 'Open Sans'}}>En Insutex, conectamos tus ideas con las mejores soluciones textiles. Desde lo esencial hasta la tecnología avanzada, estamos contigo en cada paso.
                             </rs-layer>
                         </rs-slide>
                     </rs-slides>
