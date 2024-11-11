@@ -1,15 +1,19 @@
-import * as functions from "firebase-functions";
-import * as admin from "firebase-admin";
-import 'firebase/auth'
+/**
+ * Import function triggers from their respective submodules:
+ *
+ * import {onCall} from "firebase-functions/v2/https";
+ * import {onDocumentWritten} from "firebase-functions/v2/firestore";
+ *
+ * See a full list of supported triggers at https://firebase.google.com/docs/functions
+ */
 
-admin.initializeApp();
+import {onRequest} from "firebase-functions/v2/https";
+import * as logger from "firebase-functions/logger";
 
-export const helloWorld = functions.https.onRequest((req, res) => {
-    res.send("Hello from Firebase with TypeScript!");
-});
+// Start writing functions
+// https://firebase.google.com/docs/functions/typescript
 
-/*
-export const onUserCreated = functions.auth.user().onCreate((user) => {
-    console.log(`New user created: ${user.uid}`);
-    // Lógica adicional al crear un usuario
-});*/
+// export const helloWorld = onRequest((request, response) => {
+//   logger.info("Hello logs!", {structuredData: true});
+//   response.send("Hello from Firebase!");
+// });
