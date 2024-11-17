@@ -56,7 +56,7 @@ const Banner: React.FC = () => {
                                           zIndex: 8,
                                           fontFamily: "'Red Hat Display'",
                                           textTransform: 'capitalize'
-                                      }}>Soluciones integrales textil<br/>
+                                      }}>Soluciones integrales textiles<br/>
                             </rs-layer>
                             <rs-layer id="slider-4-slide-10-layer-2" data-type="image" data-rsp_ch="on"
                                       data-xy="x:l,l,l,c;xo:30px,30px,30px,-90px;y:m;yo:-124px,-109px,-55px,-57px;"
