@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
                                                 <div className="pq-footer-items-info">
                                                     <h4>call Us On</h4>
                                                     <a href="tel:+50589517503">
-                                                        <span>+505 8951 7503</span>
+                                                        <span>+505 8518 7392</span>
                                                     </a>
                                                 </div>
                                             </div>

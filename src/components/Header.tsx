@@ -27,7 +27,7 @@ const Header: React.FC = () => {
                                         <li>
                                             <a href="tel:+50589517503">
                                                 <i className="fas fa-phone"></i>
-                                                <span>+505 8951-7503</span>
+                                                <span>+505 8518-7392</span>
                                             </a>
                                         </li>
                                         <li>
