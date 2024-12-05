@@ -22,31 +22,36 @@ const AboutUs: React.FC = () => {
                         <span className="pq-section-sub-title">
                             <img decoding="async" src="/images/section-title/title-icon-primary.png" alt=""/>Acerca de nosotros
                         </span>
-                            <h5 className="pq-section-main-title">Construyamos algo creativo juntos</h5>
-                            <p className="pq-section-description">Los textiles son materiales fabricados a partir de fibras o hilos y
-                                se utilizan para crear una amplia gama de productos, como ropa y bienes industriales.</p>
+                            {/*<h5 className="pq-section-main-title">Construyamos algo creativo juntos</h5>*/}
+                            <h5 className="pq-section-main-title">Construyamos juntos</h5>
+                            <p className="pq-section-description">En InsuTex Group, somos tu aliado confiable en el
+                                mundo de la manufactura textil.
+                                Nos especializamos en ofrecer soluciones completas tanto para la industria textil como
+                                para talleres y hogares, apoyando la creatividad y productividad
+                                de nuestros clientes con productos de alta calidad.
+                            </p>
                         </div>
                         <ul className="pq-list-check pq-mb-45">
-                            <li>
+                        <li>
                                 <i className="fas fa-check-circle"></i>
-                                <span>Exploring the Role of Textiles in Human Society</span>
+                                <span>Amplio Portafolio de Productos</span>
                             </li>
                             <li>
                                 <i className="fas fa-check-circle"></i>
-                                <span>From Smart Fabrics to Wearable Electronics</span>
+                                <span>Compromiso con la Calidad</span>
                             </li>
                             <li>
                                 <i className="fas fa-check-circle"></i>
-                                <span>Sustainable textile production practices</span>
+                                <span>Atención Integral para Todos</span>
                             </li>
                             <li>
                                 <i className="fas fa-check-circle"></i>
-                                <span>Balancing Environmental Economic</span>
+                                <span>Innovación y Cercanía</span>
                             </li>
                         </ul>
                         <a className="pq-button pq-button-flat" href="about-us.html">
                             <div className="pq-button-block">
-                                <span className="pq-button-text">Read more</span>
+                                <span className="pq-button-text">Leer mas</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" className="pq-svg-arrow" width="34.899"
                                      height="14.585"
                                      viewBox="0 0 34.899 14.585">
