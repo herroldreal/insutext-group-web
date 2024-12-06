@@ -12,15 +12,14 @@ const Provide: React.FC = () => {
                 <div className="row align-items-center">
                     <div className="col-xl-8">
                         <div className="pq-section-title pq-style-1">
-                            <h5 className="pq-section-main-title">Provide the highest quality work that meets your
-                                expectation</h5>
+                            <h5 className="pq-section-main-title">Ofrecemos trabajos de la más alta calidad que cumplen con tus expectativas.</h5>
                         </div>
                     </div>
                     <div className="col-xl-4">
                         <div className="button-align">
                             <a className="pq-button pq-button-flat" href="contact.html">
                                 <div className="pq-button-block">
-                                    <span className="pq-button-text">contact us</span>
+                                    <span className="pq-button-text">contactanos</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" className="pq-svg-arrow" width="34.899"
                                          height="14.585"
                                          viewBox="0 0 34.899 14.585">

@@ -20,8 +20,8 @@ const Testimonial: React.FC = () => {
                                     <i className="flaticon-sewing-machine"></i>
                                 </div>
                                 <div className="pq-icon-box-content">
-                                    <h6 className="pq-icon-box-title">Over All Rating</h6>
-                                    <p className="pq-icon-box-description">Based on 2555 Reviews</p>
+                                    <h6 className="pq-icon-box-title">Calificación General</h6>
+                                    <p className="pq-icon-box-description">Basado en 840 Reseñas</p>
                                 </div>
                             </div>
                         </div>
@@ -29,9 +29,9 @@ const Testimonial: React.FC = () => {
                     <div className="col-xl-7 mt-4 mt-xl-0 pq-ps-60">
                         <div className="pq-section-title pq-style-1 pq-mb-30">
                         <span className="pq-section-sub-title">
-                            <img decoding="async" src="/images/section-title/title-icon-primary.png" alt=""/>our testimonials
+                            <img decoding="async" src="/images/section-title/title-icon-primary.png" alt=""/>Testimonios de Nuestros Clientes
                         </span>
-                            <h5 className="pq-section-main-title">what our happy clients say</h5>
+                            <h5 className="pq-section-main-title">Lo que dicen nuestros clientes</h5>
                         </div>
                         <div className="pq-testimonial-box-slider pq-style-2">
                             <div className="owl-carousel owl-loaded owl-drag" data-dots="false" data-nav="true"

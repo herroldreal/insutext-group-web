@@ -118,13 +118,16 @@ h6 {
 	font-family: var(--title-fonts);
 	color: var(--dark-color);
 	font-style: normal;
-	text-transform: capitalize;
+	text-transform: none;
 	font-weight: 700;
 	margin: 0;
 	-ms-word-wrap: break-word;
 	word-wrap: break-word;
-
 }
+
+/*footer#pq-footer .pq-footer-top .pq-footer-bottom-list .pq-footer-items .pq-footer-items-info h4 {
+	text-transform: none;
+}*/
 
 h1 a,
 h2 a,
@@ -5190,9 +5193,9 @@ Circle Progress
 	left: 50%;
 	display: inline-block;
 	font-family: var(--title-fonts);
-	font-size: 40px;
-	font-weight: 700;
-	line-height: 48px;
+	font-size: 28px;
+	font-weight: 800;
+	line-height: 30px;
 	-webkit-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);

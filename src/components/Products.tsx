@@ -57,6 +57,11 @@ const Products: React.FC = () => {
                                         <img src="/images/gallery/6.jpg" alt=""/>
                                     </a>
                                 </div>
+                                {/*<div className="item">
+                                    <a href="/images/gallery/7.jpg">
+                                        <img src="/images/gallery/7.jpg" alt=""/>
+                                    </a>
+                                </div>*/}
                             </div>
                         </div>
                     </div>

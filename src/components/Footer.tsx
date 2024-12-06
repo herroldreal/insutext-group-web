@@ -30,8 +30,10 @@ const Footer: React.FC = () => {
                                             <div className="pq-footer-items">
                                                 <i className="ti-location-pin"></i>
                                                 <div className="pq-footer-items-info">
-                                                    <h4>address</h4>
-                                                    <span>Calle 27 de mayo, Plaza Jimenez</span>
+                                                    <h4>direccion</h4>
+                                                    <a target="_blank" href="https://maps.app.goo.gl/fBUeaJq1vTor7GbX8">
+                                                        <span>Calle 27 de Mayo, Plaza Jimenez</span>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
@@ -39,9 +41,13 @@ const Footer: React.FC = () => {
                                             <div className="pq-footer-items">
                                                 <i className="ti-mobile"></i>
                                                 <div className="pq-footer-items-info">
-                                                    <h4>call Us On</h4>
+                                                    <h4>llamanos</h4>
                                                     <a href="tel:+50589517503">
                                                         <span>+505 8518 7392</span>
+                                                    </a>
+                                                    <br/>
+                                                    <a href="tel:+50581104517">
+                                                        <span>+505 8110 4517</span>
                                                     </a>
                                                 </div>
                                             </div>
@@ -50,9 +56,13 @@ const Footer: React.FC = () => {
                                             <div className="pq-footer-items">
                                                 <i className="ti-email"></i>
                                                 <div className="pq-footer-items-info">
-                                                    <h4>Email Us</h4>
+                                                    <h4>escribenos</h4>
                                                     <a href="mailto:info@insutexgroup.com">
                                                         <span>info@insutexgroup.com</span>
+                                                    </a>
+                                                    <br/>
+                                                    <a href="mailto:contact@insutexgroup.com">
+                                                        <span>contact@insutexgroup.com</span>
                                                     </a>
                                                 </div>
                                             </div>
