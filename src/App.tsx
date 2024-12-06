@@ -1,18 +1,8 @@
 import React, {useEffect} from 'react';
-import Header from './components/Header';
-import Loader from './components/Loader'
-import Banner from "./components/Banner";
-import ServiceSection from "./components/Service";
-import AboutUs from "./components/AboutUs";
-import Testimonial from "./components/Testimonial";
-import Footer from "./components/Footer";
-import BackToTop from "./components/BackToTop";
-import Clients from "./components/Clients";
-import Products from "./components/Products";
-import Productions from "./components/Productions";
-import Provide from "./components/Provide";
-import Process from "./components/Process";
-import Blog from "./components/Blog";
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+
+import Home from "./pages/Home";
+import ContactUs from "./pages/ContactUs";
 
 const App: React.FC = () => {
     useEffect(() => {
@@ -40,22 +30,14 @@ const App: React.FC = () => {
     }, []);
 
     return (
-        <div>
-            <Loader/>
-            <Header/>
-            <Banner/>
-            <AboutUs/>
-            <ServiceSection/>
-            <Clients/>
-            <Products/>
-            <Productions/>
-            <Provide/>
-            <Process/>
-            <Testimonial/>
-            <Blog/>
-            <Footer/>
-            <BackToTop/>
-        </div>
+        <Router future={{
+            v7_relativeSplatPath: true,
+        }}>
+            <Routes>
+                <Route path="/" element={<Home/>}/>
+                <Route path="/contactus" element={<ContactUs/>}/>
+            </Routes>
+        </Router>
     );
 };
 
