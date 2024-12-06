@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
                                                 <i className="ti-location-pin"></i>
                                                 <div className="pq-footer-items-info">
                                                     <h4>direccion</h4>
-                                                    <a target="_blank" href="https://maps.app.goo.gl/fBUeaJq1vTor7GbX8">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://maps.app.goo.gl/fBUeaJq1vTor7GbX8">
                                                         <span>Calle 27 de Mayo, Plaza Jimenez</span>
                                                     </a>
                                                 </div>

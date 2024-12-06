@@ -15,7 +15,7 @@ const Process: React.FC = () => {
 
             var value = '1';
             if (number < 100) value = '0.' + number
-            else if (number == 100) value = '1'
+            else if (number === 100) value = '1'
 
             // @ts-ignore
             jQuery(this).circleProgress({
