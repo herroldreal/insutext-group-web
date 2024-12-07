@@ -116,7 +116,7 @@ const Header: React.FC = () => {
                                                 </ul>
                                             </li>
                                             <li className="menu-item">
-                                                <Link to="/contactus">Contactanos</Link>
+                                                <Link to="/contact">Contactanos</Link>
                                             </li>
                                         </ul>
                                     </div>

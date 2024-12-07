@@ -1,6 +1,10 @@
 import React, {useEffect} from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
+import './assets/css/style.css'
+import './assets/css/responsive.css'
+import './assets/css/bootstrap.min.css'
+
 import Home from "./pages/Home";
 import ContactUs from "./pages/ContactUs";
 
@@ -31,11 +35,12 @@ const App: React.FC = () => {
 
     return (
         <Router future={{
-            v7_relativeSplatPath: true,
+            v7_startTransition: true,
+            v7_relativeSplatPath: true, // Enables relative paths in nested routes
         }}>
             <Routes>
                 <Route path="/" element={<Home/>}/>
-                <Route path="/contactus" element={<ContactUs/>}/>
+                <Route path="/contact" element={<ContactUs/>}/>
             </Routes>
         </Router>
     );

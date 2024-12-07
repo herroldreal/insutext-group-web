@@ -14,10 +14,6 @@ import Blog from "../components/Blog";
 import Footer from "../components/Footer";
 import BackToTop from "../components/BackToTop";
 
-import '../assets/css/style.css'
-import '../assets/css/responsive.css'
-import '../assets/css/bootstrap.min.css';
-
 const Home: React.FC = () => {
     return (
         <>
